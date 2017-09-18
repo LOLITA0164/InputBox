@@ -26,6 +26,12 @@
 		D381697B1F6FED7B00B6864F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D381697E1F6FED7B00B6864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38169801F6FED7B00B6864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38169861F6FEF2900B6864F /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		D38169871F6FEF2900B6864F /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		D38169881F6FEF2900B6864F /* CommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		D381698B1F6FEF4600B6864F /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		D381698C1F6FEF4600B6864F /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		D381698E1F6FF03000B6864F /* MyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,12 @@
 		D381696F1F6FED7B00B6864F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D381698E1F6FF03000B6864F /* MyMacro.h */,
+				D381698B1F6FEF4600B6864F /* UIView+AdjustFrame.h */,
+				D381698C1F6FEF4600B6864F /* UIView+AdjustFrame.m */,
+				D38169861F6FEF2900B6864F /* CommentView.h */,
+				D38169871F6FEF2900B6864F /* CommentView.m */,
+				D38169881F6FEF2900B6864F /* CommentView.xib */,
 				D38169701F6FED7B00B6864F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +152,7 @@
 			files = (
 				D381697F1F6FED7B00B6864F /* LaunchScreen.storyboard in Resources */,
 				D381697C1F6FED7B00B6864F /* Assets.xcassets in Resources */,
+				D381698A1F6FEF2900B6864F /* CommentView.xib in Resources */,
 				D381697A1F6FED7B00B6864F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38169771F6FED7B00B6864F /* ViewController.m in Sources */,
+				D381698D1F6FEF4600B6864F /* UIView+AdjustFrame.m in Sources */,
 				D38169741F6FED7B00B6864F /* AppDelegate.m in Sources */,
+				D38169891F6FEF2900B6864F /* CommentView.m in Sources */,
 				D38169711F6FED7B00B6864F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DY8NXRF8KD;
 				INFOPLIST_FILE = InputBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA0164.InputBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DY8NXRF8KD;
 				INFOPLIST_FILE = InputBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA0164.InputBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
