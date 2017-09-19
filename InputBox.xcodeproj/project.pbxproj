@@ -13,6 +13,9 @@
 		D381697A1F6FED7B00B6864F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38169781F6FED7B00B6864F /* Main.storyboard */; };
 		D381697C1F6FED7B00B6864F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D381697B1F6FED7B00B6864F /* Assets.xcassets */; };
 		D381697F1F6FED7B00B6864F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D381697D1F6FED7B00B6864F /* LaunchScreen.storyboard */; };
+		D38169891F6FEF2900B6864F /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38169871F6FEF2900B6864F /* CommentView.m */; };
+		D381698A1F6FEF2900B6864F /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38169881F6FEF2900B6864F /* CommentView.xib */; };
+		D381698D1F6FEF4600B6864F /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D381698C1F6FEF4600B6864F /* UIView+AdjustFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
